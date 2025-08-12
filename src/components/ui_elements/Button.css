@@ -1,0 +1,12 @@
+.Button__container button {
+  background: var(--button-bkg);
+  border: none;
+  padding: 0.7rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  color: var(--text-color);
+}
+
+.Button__container button:hover {
+  border: 1px solid var(--border-color);
+}

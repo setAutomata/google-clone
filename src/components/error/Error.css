@@ -1,0 +1,33 @@
+.error {
+  display: flex;
+  justify-content: center;
+  /* padding-top: 9rem; */
+  gap: 10px;
+  background: var(--background);
+  color: var(--text-color);
+  height: 100vh;
+}
+
+.error__container{
+  display: flex;
+  margin: 9rem;
+}
+
+.error__infoColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+}
+
+.error__infoColumn p,span,b {
+  font-size: 11pt;
+}
+
+.error__infoColumn img {
+  height: 45px;
+}
+
+.error__robotColumn {
+  display: flex;
+}

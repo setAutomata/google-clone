@@ -1,0 +1,11 @@
+.signin-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 2rem;
+  color: var(--signinBtn-text-color);
+  background: var(--accent-color);
+  width: 5.3rem;
+  height: 2.4rem;
+}

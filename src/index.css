@@ -1,0 +1,69 @@
+:root {
+  --background: #fff;
+  --text-color: #222;
+  --text-dull-color: #787878;
+  --active-tab: black;
+  --svg-color: #444;
+  --link-color: #1a0dab;
+  --footer-bkg: #f2f2f2;
+  --button-bkg: #f3f3f3;
+  --input-bkg: #fff;
+  --border-color: #d0d0d0;
+  --accent-color: #254fcd;
+  --box-shadow-color-top: #f5f5f5;
+  --box-shadow-color-bottom: #c3c3c3;
+  --signinBtn-text-color: white;
+  --searchMenu-background: #e8eef5;
+  --menu-logo-color: black;
+  --menu-hover-color: #d1d6dd;
+  --result-card: #f9f9f9;
+  --result-card-border: #e3e3e3;
+  --header-box-shadow: #999;
+  --skeleton-reflection: #fff;
+  --skeleton-bkg: #b8b8b8;
+  --image-shadow: #888;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.darkmode {
+  --background: #10121a;
+  --text-color: #e4e4e4;
+  --text-dull-color: #777;
+  --active-tab: #d2d2d2;
+  --svg-color: #888;
+  --link-color: #659eff;
+  --footer-bkg: #1f2129;
+  --border-color: #333;
+  --button-bkg: #3f4453;
+  --input-bkg: #3f4453;
+  --accent-color: #5c85ff;
+  --signinBtn-text-color: black;
+  --searchMenu-background: #282a2c;
+  --menu-logo-color: white;
+  --menu-hover-color: #404246;
+  --result-card: #151721;
+  --result-card-border: #1e222f;
+  --header-box-shadow: #313131;
+  --skeleton-reflection: #494c5b;
+  --skeleton-bkg: #151721;
+  --image-shadow: #222;
+  --box-shadow-color-top: transparent;
+  --box-shadow-color-bottom: transparent;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body svg {
+  fill: var(--svg-color);
+}
+
+button {
+  cursor: pointer;
+}

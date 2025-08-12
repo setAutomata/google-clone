@@ -1,0 +1,149 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  color: var(--text-color);
+  background: var(--background);
+}
+
+.home__header {
+  display: flex;
+  width: 100%;
+}
+
+.home__header__top {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.home__header__right{
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+  gap: 0.8rem;
+  font-size: 0.813rem;
+  display: none;
+}
+
+.home__header__right div{
+  cursor: pointer;
+}
+
+.minTab{
+  padding: 0.9rem 0.3rem;
+  border-bottom: 3px solid transparent;
+}
+
+.active-minTab{
+  color: var(--accent-color);
+  border-bottom: 3px solid var(--accent-color);
+}
+
+
+.home__header__left {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+  gap: 1rem;
+  font-size: 0.813rem;
+  width: 100%;
+}
+
+.Home__btn__container {
+  display: flex;
+  gap: 1rem;
+}
+
+.link-btn {
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+}
+
+.link-btn:hover {
+  border-bottom: 1px solid var(--text-color);
+}
+
+.apps-btn {
+  position: relative;
+  background: none;
+  border: none;
+  border-radius: 50%;
+  padding: 0.4rem;
+}
+
+.apps-btn:hover {
+  background: var(--button-bkg);
+}
+
+/* ======================Main========================== */
+
+.home__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1.8rem;
+}
+
+.home__main__logo {
+  position: relative;
+}
+
+.home__main__logo::before {
+  position: absolute;
+  content: attr(data-search-type);
+  color: var(--accent-color);
+  font-weight: bold;
+  right: 0;
+  margin-right: 0.5rem;
+  margin-top: 5rem;
+}
+
+.home__main__lang {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.home__main__lang span {
+  font-size: 0.8rem;
+}
+
+.home__main__lang a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.home__main__lang a:hover {
+  text-decoration: underline;
+}
+
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+/* ======================Footer========================== */
+
+footer {
+  display: flex;
+  background: var(--light-footer-bkg);
+}
+
+@media (max-width: 768px) {
+  .Home__btn__container {
+    display: none;
+  }
+  .hide-min {
+    display: none;
+  }
+  .home__header__right{
+    display: inherit;
+  }
+}

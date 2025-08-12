@@ -1,0 +1,39 @@
+.rectangle {
+  border-radius: 0.5rem;
+  margin: 0.3rem 0.4rem;
+  background-size: 200% 100%;
+  background-image: linear-gradient(
+    90deg,
+    var(--skeleton-bkg),
+    var(--skeleton-reflection),
+    var(--skeleton-bkg)
+  );
+  border: 1px solid var(--border-color);
+  animation: reflection 2s infinite ease;
+}
+
+.circle {
+  border-radius: 50%;
+  margin: 0.5rem;
+  background-size: 200% 100%;
+  background-image: linear-gradient(
+    90deg,
+    var(--skeleton-bkg),
+    var(--skeleton-reflection),
+    var(--skeleton-bkg)
+  );
+  border: 1px solid var(--border-color);
+  animation: reflection 2s infinite ease;
+}
+
+@keyframes reflection {
+  0% {
+    background-position: right;
+  }
+  50% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}

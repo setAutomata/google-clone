@@ -1,0 +1,98 @@
+.search__header__menu {
+  cursor: default;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+  margin: 3rem 1rem 0 1rem;
+  transform: translateX(-65%);
+  background: var(--searchMenu-background);
+  border: 1px solid var(--border-color);
+  border-radius: 1.5rem;
+  width: 24rem;
+  padding: 1rem;
+  box-shadow: 3px 3px 5px var(--box-shadow-color-bottom),
+    -2px -2px 3px var(--box-shadow-color-top);
+  visibility: hidden;
+  z-index: 1;
+}
+
+.menuHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -0.2rem;
+  width: 100%;
+}
+
+.googleLogo-menu-header {
+  fill: var(--menu-logo-color);
+}
+
+.close-menu-search {
+  padding: 0.4rem;
+  border-radius: 50%;
+  border: 2px solid transparent;
+}
+
+.close-menu-search:hover {
+  border: 2px solid var(--border-color);
+}
+
+.search-menu-line {
+  width: 100%;
+  border: 1px solid var(--border-color);
+  margin: 0 0 1rem 0;
+}
+
+.menu-sub-title {
+  color: #777;
+  width: 92%;
+  font-size: 0.8rem;
+  padding: 0 1rem;
+}
+
+.menu-lighter-bkg {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  clip-path: inset(0% 0% 0% 0% round 1.8rem);
+}
+
+.menu-lighter-bkg-row {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  line-height: 3rem;
+  background: var(--background);
+  margin: 0.08rem 0;
+  padding: 0 1.2rem;
+}
+.menu-lighter-bkg-row:hover {
+  background: var(--menu-hover-color);
+}
+
+.menu-row-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.menu-row-half {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  align-items: center;
+  width: 50%;
+}
+
+.menu-bottom-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
