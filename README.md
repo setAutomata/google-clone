@@ -1,6 +1,6 @@
 # Google search clone
 
-This project is a clone of google.com with working "All" and "Images" tab using Google Custom Search JSON API.
+This project is a clone of google.com using Google Custom Search JSON API.
 
 ![google-clone preview](/public/preview.webp)
 
@@ -16,8 +16,8 @@ This project is a clone of google.com with working "All" and "Images" tab using 
 - Mobile view
 - custom skeleton loading effect
 - fetch more images on scroll
-- shows menu onClick for "Quick Settings" and "Google Apps" buttons
-- GUI resembles the real google page
+- Popup Menu for "Quick Settings" and "Google Apps" buttons on click.
+- Excellent GUI 
 
 ## 🔧 Setup
 
