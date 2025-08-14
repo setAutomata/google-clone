@@ -13,15 +13,14 @@ This project is a clone of google.com using Google Custom Search JSON API.
 
 - Darkmode
 - Pagination
+- Infinite Scroll
 - Mobile view
-- custom skeleton loading effect
-- fetch more images on scroll
+- Custom skeleton loading effect
 - Popup Menu for "Quick Settings" and "Google Apps" buttons on click.
-- Excellent GUI 
 
 ## 🔧 Setup
 
-1. **To Create Programmable Search Engine to recieve an api key and CSE-ID go to** 🔑 https://developers.google.com/custom-search/v1/introduction
+1. **Create Programmable Search Engine to recieve an api key and CSE-ID go to** 🔑 https://developers.google.com/custom-search/v1/introduction
 
 2. **Clone and Install**
 
