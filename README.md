@@ -2,7 +2,7 @@
 
 This project is a clone of google.com using Google Custom Search JSON API.
 
-![google-clone preview](/public/preview.webp)
+![google-clone preview](./public/preview.webp)
 
 ## ⛏️ Built with
 
