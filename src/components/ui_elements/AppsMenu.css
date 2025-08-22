@@ -1,0 +1,73 @@
+.menu-apps {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--searchMenu-background);
+  transform: translate(-65%);
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  width: 20rem;
+  border: 1px solid var(--border-color);
+  border-radius: 1.5rem;
+  z-index: 1;
+  height: 25rem;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  box-shadow: 3px 3px 5px var(--box-shadow-color-bottom),
+    -2px -2px 3px var(--box-shadow-color-top);
+  visibility: hidden;
+}
+
+.menu-apps-internal {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  background: var(--background);
+  border-radius: inherit;
+  padding: 1rem 0;
+  width: 100%;
+  font-size: 0.813rem;
+}
+
+.menu-apps-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu-apps-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  display: flex;
+  border-radius: 1rem;
+  width: 5rem;
+  height: 5.5rem;
+}
+
+.menu-apps-btn:hover {
+  background: var(--searchMenu-background);
+}
+
+.menu-apps-text {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.moreFromGoogle {
+  cursor: pointer;
+  display: flex;
+  color: var(--accent-color);
+  border: 1px solid var(--text-color);
+  border-radius: 5rem;
+  padding: 0.7rem 1.5rem;
+  margin: 1rem 0;
+  font-size: 0.813rem;
+}
+
+.moreFromGoogle:hover {
+  background: var(--background);
+  border: 1px solid var(--border-color);
+}

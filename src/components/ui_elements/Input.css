@@ -1,0 +1,71 @@
+.Input__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+  padding: 0.5rem 1rem;
+  background: var(--input-bkg);
+  gap: 1rem;
+  width: 45%;
+  box-shadow: 1px 1px 4px var(--box-shadow-color-bottom),
+    -1px -1px 3px var(--box-shadow-color-top);
+  transition: width 1s;
+}
+
+.Input__container:hover {
+  box-shadow: 2px 2px 4px var(--box-shadow-color-bottom),
+    -1px -1px 3px var(--box-shadow-color-top);
+}
+
+.Input__container input {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: var(--text-color);
+  font-size: 1rem;
+  width: 100%;
+}
+
+.Input__container input:focus {
+  background: none;
+}
+
+.verticalBar {
+  border: 1px solid var(--border-color);
+  margin-left: 1rem;
+}
+
+.blueSearch {
+  border: none;
+  background: none;
+}
+
+.blueSearch svg {
+  fill: var(--accent-color);
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+@media (max-width: 1260px) {
+  .Input__container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  form{
+    display: flex;
+    justify-content: center;
+  }
+  .Input__container {
+    width: 90%;
+  }
+  .hide-min {
+    display: none;
+  }
+  .show-min {
+    display: block;
+  }
+}

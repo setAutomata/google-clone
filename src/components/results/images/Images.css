@@ -1,0 +1,59 @@
+.image__container {
+  columns: auto 13.5rem;
+  margin: 1rem;
+  width: 100%;
+}
+
+.imgage-thumb {
+  margin-bottom: 1rem;
+}
+
+.imgage-thumb img {
+  display: block;
+  width: 13.5rem;
+  height: auto;
+  border-radius: 5%;
+  box-shadow: 1px 1px 2px var(--image-shadow);
+  background-image: url('../../../assets/images/checkeredPattern.png');
+  background-repeat: repeat;
+  background-size: 10%;
+}
+
+.imgage-thumb img:hover {
+  box-shadow: 2px 2px 3px var(--image-shadow);
+}
+
+.imgage-thumb {
+  -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+  page-break-inside: avoid; /* Firefox */
+  break-inside: avoid; /* IE 10+ */
+}
+
+.imgage-thumb:hover {
+  transform: scale(1.08);
+  z-index: 1;
+}
+
+.imageLabel a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: var(--text-dull-color);
+}
+
+.imageLabel a:hover {
+  text-decoration: underline;
+}
+
+.imageText {
+  width: 83%;
+  font-size: 0.85rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

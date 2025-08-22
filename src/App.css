@@ -1,0 +1,23 @@
+#root {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Arial;
+  src: url("./assets/fonts/Arial.ttf");
+}
+
+@font-face {
+  font-family: sans-serif;
+  src: url("./assets/fonts/ProductSans-Regular.ttf");
+}
+
+.hide-min {
+  display: block;
+}
+
+.show-min {
+  display: none;
+}

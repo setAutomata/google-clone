@@ -1,0 +1,30 @@
+/*========================== Pagination Google logo ============================*/
+.paginationContainer {
+  margin-bottom: 20px;
+}
+
+.paginationBox {
+  display: flex;
+  justify-content: center;
+}
+
+.paginationColumn {
+  display: flex;
+  flex-direction: column;
+  color: var(--accent-color);
+  border: none;
+  background: none;
+  padding: 0px 1px;
+}
+
+.paginationColumn img {
+  height: 35px;
+}
+
+.handPointer {
+  cursor: pointer;
+}
+
+.pageNum:hover{
+  text-decoration: underline;
+}
